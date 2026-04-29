@@ -1,0 +1,21 @@
+//
+//  .swiftlint.yml
+//  MortyApp
+//
+//  Created by angel aquino on 29/04/26.
+//
+
+disabled_rules:
+  - trailing_whitespace
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+excluded:
+  - Pods
+  - MortyAppTests
+
+line_length:
+  warning: 120
+  error: 140
